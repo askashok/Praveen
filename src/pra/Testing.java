@@ -26,13 +26,13 @@ public class Testing {
       driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
       //driver.findElement(By.name("Enter your name")).clear();
       driver.findElement(By.name("Enter your name")).sendKeys("ashok");
-      //driver.findElement(By.xpath("//android.widget.Button[contains(@bounds,'[192,1087][384,1285]')]")).click();
+     // driver.findElement(By.xpath("//android.widget.Button[contains(@bounds,'[192,1087][384,1285]')]")).click();
      // driver.findElement(By.xpath("//android.widget.Button[contains(@bounds,'[432,1087][624,1285]')]")).click();
      // driver.findElement(By.xpath("//android.widget.Button[contains(@bounds,'[672,1087][864,1285]')]")).click();
       //driver.findElement(By.name("Enter your Email")).clear();
-      driver.findElement(By.name("Enter your Email")).sendKeys("ashok.blisslogix@gmail.com");
-      driver.findElement(By.name("Save")).click();
-      
+     driver.findElement(By.name("Enter your Email")).sendKeys("ashok.blisslogix@gmail.com");
+    driver.findElement(By.name("Save")).click();
+      driver.quit(); 
 	  
   }
 }
